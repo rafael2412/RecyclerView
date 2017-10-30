@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="horizontal"
+    android:background="#fff">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="#efeded"
+        android:src="@drawable/ic_access_time_black_48dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#9B6302"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp">
+        <TextView
+            android:id="@+id/view_mensaje"
+            android:layout_width="match_parent"
+            android:text="Trabajo"
+            android:textColor="#fff"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/view_fecha"
+            android:layout_width="match_parent"
+            android:text="06:30 AM"
+            android:textColor="#fff"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"/>
+    </LinearLayout>
+
+</LinearLayout>
